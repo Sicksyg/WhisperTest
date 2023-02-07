@@ -1,4 +1,3 @@
-"# WhisperTest" 
 ""________________________Setup Whisper:__________________________""
 
 
@@ -34,4 +33,8 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 
 
 6.) Use my baller script B-)
+
+
+
+
 
