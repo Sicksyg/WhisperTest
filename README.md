@@ -17,7 +17,9 @@ Activate the enviroment:
 
 
 ### 3.)
-Download the CUDAtoolkit (11.6 or 11.7) install it without video drivers and nvidia geforce
+Download:
+1. The CUDAtoolkit (11.6 or 11.7) install it without video drivers and nvidia geforce
+2. Ffmpeg CLI from essensials (https://git.ffmpeg.org/ffmpeg.git or Win binaries from https://www.gyan.dev/ffmpeg/builds/)
 
 
 ### 4.)
