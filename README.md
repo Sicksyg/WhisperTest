@@ -31,6 +31,12 @@ Update pytorch with the corresponding CUDAToolKit (DO THIS AFTER CLONING WHISPER
 
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 
+### 6.)
+OPTIONAL: Install jupyter and a ipython kernel
+pip install jupyter
+pip install ipython
+ipython kernel install --user --name=<name of venv>
 
-### 6.) Use my baller script B-)
+### 7.)
+Use my baller script B-)
 
