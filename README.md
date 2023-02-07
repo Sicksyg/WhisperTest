@@ -33,8 +33,11 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 
 ### 6.)
 OPTIONAL: Install jupyter and a ipython kernel
+
 pip install jupyter
+
 pip install ipython
+
 ipython kernel install --user --name=<name of venv>
 
 ### 7.)
