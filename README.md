@@ -1,4 +1,4 @@
-"# WhisperTest" 
+# WhisperTest
 ## Setup Whisper:
 
 ### 1.)
@@ -31,7 +31,21 @@ Clone the Whisper repo from github
 ### 5.)
 Update pytorch with the corresponding CUDAToolKit (DO THIS AFTER CLONING WHISPER!)
 
-```pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117```
+First uninstall PyTorch
+```
+pip3 uninstall torch torchvision torchaudio
+```
+
+Then purge the pip cache
+```
+pip3 cache purge
+```
+
+Then install PyTorch again
+From: https://pytorch.org/get-started/locally/
+```
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+```
 
 ### 6.)
 OPTIONAL: Install jupyter and a ipython kernel
