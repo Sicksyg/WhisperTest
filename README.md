@@ -1,4 +1,7 @@
 # WhisperTest
+
+This is a "fork" of the openai/whisper repo ```https://github.com/openai/whisper```. This repo is an implementation for use in academic translation, with some small tweaks and personal CLI agent. 
+
 ## Setup Whisper:
 
 ### 1.)
