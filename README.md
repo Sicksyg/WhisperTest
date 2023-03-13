@@ -60,4 +60,25 @@ ipython kernel install --user --name=<name of venv>
 
 ### 7.)
 Use my baller script B-)
+```
+>>> python3.10 Whisper_cli.py -h
+
+usage: Whisper_cli.py [-h] [-f FILENAME] [-m MODELSIZE] [-o OUTPUT] [-json] [-ts] [-d DEVICE] [-b]
+
+Transcribe an audio file into text using whisper/openAi
+
+options:
+  -h, --help            show this help message and exit
+  -f FILENAME, --filename FILENAME
+                        Specify the audiofile that you want to transcribe
+  -m MODELSIZE, --modelsize MODELSIZE
+                        Specify the model, can be: base, small, medium, large-v2
+  -o OUTPUT, --output OUTPUT
+                        Define an output path for transcribed audio file
+  -json                 Output as a json file
+  -ts                   Output as a timestamped
+  -d DEVICE, --device DEVICE
+                        Specify use of GPU (option: cuda) or CPU (option: cpu)
+  -b, --batch           If set, the transcriber takes all the files in inport and transcribe them
+```
 
