@@ -72,16 +72,16 @@ def batch_process(args, model):
     export_path = "./Export/"
     for file in os.listdir(import_path):
         print(f"files in import folder {os.listdir(import_path)} \n")
-        result = model.transcribe(file, verbose=False)
-        file_printer(args, result, file)
+        result = model.transcribe(import_path + file, verbose=False)
+        file_printer(args, result, export_path + file)
 
 """Printer for results"""
 
-def file_printer(args, result, filename):
-    if args.output is not None:  # If the output options has been added to the argument
-        output_txt = args.output + "/" + filename[:-4] + ".txt"
-        output_json = args.output + "/" + filename[:-4] + ".json"
-        output_ts = args.output + "/" + filename[:-4] + ".txt"
+def file_printer(args, result, filedir):
+    if args.output is not None or args.batch:  # If the output options has been added to the argument
+        output_txt = filedir[:-4] + ".txt"
+        output_json = filedir[:-4] + ".json"
+        output_ts = filedir[:-4] + ".txt"
 
         if args.json:  # If -json == True
             # Writes json file
@@ -96,7 +96,7 @@ def file_printer(args, result, filename):
             logging.info(f"Output saved to {output_txt}")
         
         if args.ts:
-            result["segments"]
+            r = result["segments"]
             with open(output_json, "x", encoding="utf-8") as fp:
                 json.dump(result["segments"], fp, indent=4)
 
