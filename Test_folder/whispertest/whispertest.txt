@@ -1,0 +1,1 @@
+ Dette er en lille test for at teste hvordan at Whisper AI virker en del af OpenAI som fungerer på en bestemt måde der eventuelt kan hjælpe med transkribering af forskellige the use og andre lignende sager. Dette er bare en test for at teste hvordan den eventuelt vil virke sammen med besærk Codecores på mit 1070 CPU. og GPU
