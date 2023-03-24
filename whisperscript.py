@@ -5,6 +5,9 @@ import torch
 import json
 import os
 import logging
+#from datetime import timedelta
+import datetime
+
 
 logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
 
@@ -70,35 +73,41 @@ def batch_process(args, model):
     logging.info("Starting batch transcription \n")
     import_path = "./Import/" 
     export_path = "./Export/"
+    print(f"files in import folder {os.listdir(import_path)} \n")
     for file in os.listdir(import_path):
-        print(f"files in import folder {os.listdir(import_path)} \n")
+        allfile_dir = export_path+file[:-4]+"/"
+        os.mkdir(allfile_dir)
         result = model.transcribe(import_path + file, verbose=False)
-        file_printer(args, result, export_path + file)
+        file_printer(args, result, file, allfile_dir)
 
 """Printer for results"""
-
-def file_printer(args, result, filedir):
+def file_printer(args, result, file, filedir):
     if args.output is not None or args.batch:  # If the output options has been added to the argument
-        output_txt = filedir[:-4] + ".txt"
-        output_json = filedir[:-4] + ".json"
-        output_ts = filedir[:-4] + ".txt"
+        output_txt = file[:-4] + ".txt"
+        output_json = file[:-4] + ".json"
+        output_ts = file[:-4] + "TIMESTAMP.txt"
 
         if args.json:  # If -json == True
             # Writes json file
-            with open(output_json, "x", encoding="utf-8") as fp:
+            with open(filedir + output_json, "x", encoding="utf-8") as fp:
                 json.dump(result["segments"], fp, indent=4)
 
             # Writes txt file
-            with open(output_txt, "w", encoding="utf-8") as fp:
+            with open(filedir + output_txt, "w", encoding="utf-8") as fp:
                 fp.write(result["text"])
 
             logging.info(f"Output saved to {output_json}")
             logging.info(f"Output saved to {output_txt}")
         
         if args.ts:
-            r = result["segments"]
-            with open(output_json, "x", encoding="utf-8") as fp:
-                json.dump(result["segments"], fp, indent=4)
+            res_detailed = result["segments"]
+            with open(filedir + output_ts, "w",encoding="utf-8") as tsfile:        
+                for res in res_detailed:
+                    start = datetime.timedelta(seconds= res["start"])
+                    end = res["end"]
+                    txt = res["text"]
+                    print(f'{start}{txt}')
+                    tsfile.writelines(f'{start}{txt} \n')
 
         else:  # Only save a txt file
             # Writes txt file

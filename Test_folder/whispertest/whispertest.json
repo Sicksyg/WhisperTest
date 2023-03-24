@@ -1,0 +1,272 @@
+[
+    {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.88,
+        "text": " Dette er en lille test for at teste hvordan at",
+        "tokens": [
+            413,
+            3007,
+            1189,
+            465,
+            287,
+            3409,
+            1500,
+            337,
+            412,
+            49586,
+            276,
+            48658,
+            412
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 1,
+        "seek": 0,
+        "start": 5.88,
+        "end": 7.88,
+        "text": " Whisper AI virker",
+        "tokens": [
+            41132,
+            610,
+            7318,
+            4107,
+            5767
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 2,
+        "seek": 0,
+        "start": 7.88,
+        "end": 9.88,
+        "text": " en del af OpenAI",
+        "tokens": [
+            465,
+            1103,
+            3238,
+            7238,
+            48698
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 3,
+        "seek": 0,
+        "start": 9.88,
+        "end": 12.88,
+        "text": " som fungerer p\u00e5 en bestemt m\u00e5de",
+        "tokens": [
+            3307,
+            1019,
+            1321,
+            260,
+            4170,
+            465,
+            1151,
+            443,
+            83,
+            10254,
+            1479
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 4,
+        "seek": 0,
+        "start": 12.88,
+        "end": 14.88,
+        "text": " der eventuelt kan hj\u00e6lpe med transkribering",
+        "tokens": [
+            1163,
+            2280,
+            84,
+            2018,
+            4608,
+            23731,
+            7303,
+            75,
+            494,
+            1205,
+            1145,
+            74,
+            2024,
+            1794
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 5,
+        "seek": 0,
+        "start": 14.88,
+        "end": 16.88,
+        "text": " af forskellige",
+        "tokens": [
+            3238,
+            32299,
+            43723,
+            3969
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 6,
+        "seek": 0,
+        "start": 16.88,
+        "end": 18.88,
+        "text": " the use",
+        "tokens": [
+            264,
+            764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 7,
+        "seek": 0,
+        "start": 18.88,
+        "end": 20.88,
+        "text": " og andre lignende sager.",
+        "tokens": [
+            5360,
+            293,
+            265,
+            287,
+            788,
+            5445,
+            262,
+            3557,
+            13
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 8,
+        "seek": 0,
+        "start": 20.88,
+        "end": 22.88,
+        "text": " Dette er bare en test for at teste hvordan",
+        "tokens": [
+            413,
+            3007,
+            1189,
+            6949,
+            465,
+            1500,
+            337,
+            412,
+            49586,
+            276,
+            48658
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 9,
+        "seek": 0,
+        "start": 22.88,
+        "end": 24.88,
+        "text": " den eventuelt vil virke",
+        "tokens": [
+            1441,
+            2280,
+            84,
+            2018,
+            15349,
+            4107,
+            330
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 10,
+        "seek": 0,
+        "start": 24.88,
+        "end": 26.88,
+        "text": " sammen med bes\u00e6rk Codecores",
+        "tokens": [
+            3247,
+            2558,
+            1205,
+            4097,
+            32011,
+            74,
+            383,
+            378,
+            3045,
+            2706
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 11,
+        "seek": 0,
+        "start": 26.88,
+        "end": 28.88,
+        "text": " p\u00e5 mit 1070 CPU.",
+        "tokens": [
+            4170,
+            2194,
+            1266,
+            5867,
+            13199,
+            13
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.38036191366552335,
+        "compression_ratio": 1.5333333333333334,
+        "no_speech_prob": 0.1131315603852272
+    },
+    {
+        "id": 12,
+        "seek": 2888,
+        "start": 28.88,
+        "end": 30.88,
+        "text": " og GPU",
+        "tokens": [
+            50364,
+            5360,
+            18407,
+            50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14732558727264405,
+        "compression_ratio": 0.42857142857142855,
+        "no_speech_prob": 0.007726114708930254
+    }
+]

@@ -1,0 +1,13 @@
+0:00:00 Dette er en lille test for at teste hvordan at 
+0:00:05.880000 Whisper AI virker 
+0:00:07.880000 en del af OpenAI 
+0:00:09.880000 som fungerer på en bestemt måde 
+0:00:12.880000 der eventuelt kan hjælpe med transkribering 
+0:00:14.880000 af forskellige 
+0:00:16.880000 the use 
+0:00:18.880000 og andre lignende sager. 
+0:00:20.880000 Dette er bare en test for at teste hvordan 
+0:00:22.880000 den eventuelt vil virke 
+0:00:24.880000 sammen med besærk Codecores 
+0:00:26.880000 på mit 1070 CPU. 
+0:00:28.880000 og GPU 
